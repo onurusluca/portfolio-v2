@@ -14,7 +14,7 @@
             :to="localePath('/')"
             id="logo"
             :class="{ 'scroll-nav': scrollNav }"
-            ><img src="~assets/images/logo.png" alt="Logo" />
+            ><img src="~assets/images/logo.png" alt="Logo Image" />
           </nuxt-link>
           <li class="nav-links">
             <a href="#about-me">{{ $t("about") }}</a>
@@ -192,7 +192,6 @@ export default {
     #logo {
       img {
         position: absolute;
-
         top: 0;
         width: 7vh;
       }

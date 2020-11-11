@@ -19,9 +19,9 @@ export default {
         name: "keywords",
         content:
           "onurusluca, onur usluca, uslucaonur, usluca, onur usluca onur, portföy, portfolio, uslucaonur.me, onurusluca.me"
-      },
-      { hid: "robots", name: "robots", content: "index, follow" },
-      { hid: "revisit-after", name: "revisit-after", content: "2 days" }
+      }
+      /*     { hid: "robots", name: "robots", content: "index, follow" },
+      { hid: "revisit-after", name: "revisit-after", content: "2 days" } */
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
@@ -50,7 +50,7 @@ export default {
   css: ["./assets/styles/variables.scss"],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [{ src: '~plugins/ga.js', mode: 'client' }],
+  plugins: [{ src: "~plugins/ga.js", mode: "client" }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -69,15 +69,24 @@ export default {
         vueI18nLoader: true
       }
     ],
-   // Crawler Options
-   ['@nuxtjs/robots', { /* module options */
-    UserAgent: '*',
-    CrawlDelay: 120,
-    Disallow: '',
-    Sitemap: 'http://www.onurusluca.me/sitemap.xml'
-  }]
+    // Crawler
+    "@nuxtjs/robots",
+    "nuxt-compress"
   ],
-
+  robots: {
+    /* module options */
+    UserAgent: "*",
+    CrawlDelay: 120,
+    Disallow: "/",
+  },
+  "nuxt-compress": {
+    gzip: {
+      cache: true
+    },
+    brotli: {
+      threshold: 10240
+    }
+  },
   i18n: {
     locales: [
       { code: "en", name: "English", iso: "en-US" },
@@ -117,7 +126,5 @@ export default {
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {
-
-  }
+  build: {}
 };

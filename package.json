@@ -6,14 +6,14 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "analyze": "nuxt generate --analyze"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/robots": "^2.4.2",
     "aos": "^3.0.0-beta.6",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.7",
+    "nuxt-compress": "^4.1.0",
     "nuxt-i18n": "^6.15.4",
     "nuxt-webfontloader": "^1.1.0",
     "vue-click-outside": "^1.1.0"
