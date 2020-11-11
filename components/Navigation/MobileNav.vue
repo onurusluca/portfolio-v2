@@ -6,9 +6,8 @@
     <div class="mobile-logo">
       <nuxt-link
         :to="localePath('/')"
-        id="logo"
         :class="{ 'scroll-nav': scrollNav }"
-        ><img src="~assets/images/logo.png" alt="" />
+        ><img src="~assets/images/logo.png" alt="Mobile Logo" />
       </nuxt-link>
     </div>
     <div :class="{ 'hide-ham-btn': !showOnScroll }"  @click="openHam = !openHam"

@@ -7,7 +7,7 @@
     <div class="projects">
       <div class="project left" data-aos="fade-in">
         <div class="image-container">
-          <a target="_blank" href="https://denmou.herokuapp.com/">
+          <a target="_blank" rel=”noreferrer” href="https://denmou.herokuapp.com/">
             <img
               src="../assets/images/denmou.png"
               alt="Denmou image"
@@ -30,6 +30,7 @@
             <a
               title="Show the code on github"
               target="_blank"
+              rel=”noreferrer”
               href="https://github.com/onurusluca/denmou"
               ><svg
                 version="1.1"
@@ -78,6 +79,7 @@
             <a
               title="Show the live website"
               target="_blank"
+              rel=”noreferrer”
               href="https://denmou.herokuapp.com/"
               ><svg
                 version="1.1"
@@ -150,6 +152,7 @@
             <a
               title="Show the code on github"
               target="_blank"
+              rel=”noreferrer”
               href="https://github.com/onurusluca/kaidanfit"
               ><svg
                 version="1.1"
@@ -198,6 +201,7 @@
             <a
               title="Show the live website"
               target="_blank"
+              rel=”noreferrer”
               href="https://kaidanfit.netlify.app/"
               ><svg
                 version="1.1"
@@ -254,7 +258,7 @@
           </div>
         </div>
         <div class="image-container">
-          <a target="_blank" href="https://kaidanfit.netlify.app/">
+          <a target="_blank" rel=”noreferrer” href="https://kaidanfit.netlify.app/">
             <img
               src="../assets/images/kaidan.png"
               alt="KaidanFit image"

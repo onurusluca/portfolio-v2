@@ -7,7 +7,7 @@
         <div class="links">
           <a
             title="Show the code on github"
-            target="_blank"
+            target="_blank" rel=”noreferrer”
             href="https://github.com/onurusluca/ongaku-music-player"
             ><svg
               version="1.1"
@@ -55,7 +55,7 @@
           </a>
           <a
             title="Show the live website"
-            target="_blank"
+            target="_blank" rel=”noreferrer”
             href="https://ongakuplayer.netlify.app/"
             ><svg
               version="1.1"
@@ -124,7 +124,7 @@
         <div class="links">
           <a
             title="Show the code on github"
-            target="_blank"
+            target="_blank" rel=”noreferrer”
             href="https://github.com/onurusluca/calendar-app-vue"
             ><svg
               version="1.1"
@@ -172,7 +172,7 @@
           </a>
           <a
             title="Show the live website"
-            target="_blank"
+            target="_blank" rel=”noreferrer”
             href="https://kalendar-vue.netlify.app/"
             ><svg
               version="1.1"
@@ -240,7 +240,7 @@
       <div class="work" data-aos="fade-in" data-aos-delay="300">
                  <img src="../assets/images/egaki-icon.png" alt="" />
         <div class="links">
-          <a title="Show the code on github" target="_blank" href=""
+          <a title="Show the code on github" target="_blank" rel=”noreferrer” href="#"
             ><svg
               version="1.1"
               id="Capa_1"
@@ -285,7 +285,7 @@
               <g></g>
             </svg>
           </a>
-          <a title="Show the live website" target="_blank" href=""
+          <a title="Show the live website" target="_blank" rel=”noreferrer” href="#"
             ><svg
               version="1.1"
               id="Capa_1"
@@ -353,7 +353,7 @@
                <img src="../assets/images/pv1-icon.png" alt="" />
 
         <div class="links">
-          <a title="Show the code on github" target="_blank" href="https://github.com/onurusluca/portfolioV1"
+          <a title="Show the code on github" target="_blank" rel=”noreferrer” href="https://github.com/onurusluca/portfolioV1"
             ><svg
               version="1.1"
               id="Capa_1"
@@ -398,7 +398,7 @@
               <g></g>
             </svg>
           </a>
-          <a title="Show the live website" target="_blank" href="https://uslucaonurv1.netlify.app/en"
+          <a title="Show the live website" target="_blank" rel=”noreferrer” href="https://uslucaonurv1.netlify.app/en"
             ><svg
               version="1.1"
               id="Capa_1"
@@ -467,7 +467,7 @@
         <div class="links">
           <a
             title="Show the code on github"
-            target="_blank"
+            target="_blank" rel=”noreferrer”
             href="https://github.com/onurusluca/caspineon"
             ><svg
               version="1.1"
@@ -515,7 +515,7 @@
           </a>
           <a
             title="Show the live website"
-            target="_blank"
+            target="_blank" rel=”noreferrer”
             href="https://caspineon.netlify.app/"
             ><svg
               version="1.1"
@@ -585,7 +585,7 @@
         <div class="links">
           <a
             title="Show the code on github"
-            target="_blank"
+            target="_blank" rel=”noreferrer”
             href="https://github.com/onurusluca/todo-or-nottodo"
             ><svg
               version="1.1"
@@ -633,7 +633,7 @@
           </a>
           <a
             title="Show the live website"
-            target="_blank"
+            target="_blank" rel=”noreferrer”
             href="https://todo-or-nottodo.netlify.app/"
             ><svg
               version="1.1"

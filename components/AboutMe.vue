@@ -131,13 +131,15 @@ export default {};
   }
 
   .right-about {
+    box-shadow: 8px 8px 0px 0px $p-color;
+    border-radius: 0.5vh;
+
     img {
       z-index: 2;
       width: 38vh;
       height: 38vh;
       object-fit: cover;
       border-radius: 0.5vh;
-      box-shadow: 8px 8px 0px 0px $p-color;
       transition: all 400ms;
       filter: grayscale(100%);
       &:hover {

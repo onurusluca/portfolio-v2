@@ -68,7 +68,14 @@ export default {
       {
         vueI18nLoader: true
       }
-    ]
+    ],
+   // Crawler Options
+   ['@nuxtjs/robots', { /* module options */
+    UserAgent: '*',
+    CrawlDelay: 120,
+    Disallow: '',
+    Sitemap: 'http://www.onurusluca.me/sitemap.xml'
+  }]
   ],
 
   i18n: {

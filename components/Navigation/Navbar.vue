@@ -14,7 +14,7 @@
             :to="localePath('/')"
             id="logo"
             :class="{ 'scroll-nav': scrollNav }"
-            ><img src="~assets/images/logo.png" alt="" />
+            ><img src="~assets/images/logo.png" alt="Logo" />
           </nuxt-link>
           <li class="nav-links">
             <a href="#about-me">{{ $t("about") }}</a>
@@ -32,6 +32,7 @@
             <a
               v-show="$i18n.locale === 'en'"
               target="_blank"
+              rel="”noreferrer”"
               class="resume"
               href="https://drive.google.com/file/d/15ynhVK66b_C764PZdpiOS9uqnrK4N51G/view"
               download="Usluca_Onur_Web_Developer_Resume"
@@ -41,6 +42,7 @@
             <a
               v-show="$i18n.locale === 'tr'"
               target="_blank"
+              rel="”noreferrer”"
               class="resume"
               href="https://drive.google.com/file/d/15ynhVK66b_C764PZdpiOS9uqnrK4N51G/view"
               download="Usluca_Onur_Web_Developer_Resume"
@@ -50,6 +52,7 @@
             <a
               v-show="$i18n.locale === 'ja'"
               target="_blank"
+              rel="”noreferrer”"
               class="resume"
               href="https://drive.google.com/file/d/1u8xm1mpPxKnyKzpQV0su0SEqZ7X4gx31/view"
               download="Usluca_Onur_日本語履歴書"

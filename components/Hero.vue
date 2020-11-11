@@ -137,10 +137,10 @@ export default {};
       .desu {
       font-size: 3vw;
       padding: 0;
-      margin: 0;
     }
     }
     h2 {
+      margin-top: 0;
       font-size: 6vw;
     }
     p {
