@@ -1,0 +1,29 @@
+{
+  "en": {
+    "about-me": "About Me",
+    "about-text": {
+      "about-2": "Hey. How are you? My name is Onur.",
+      "about-3": "I am a self-taught web developer / designer. I studied Japanese Language in Ankara University in Turkey.",
+      "about-4": "I have over 2 years of work experience in web development. I speak Japanese, English and Turkish"
+    },
+    "about-list": "These are some of the technologies I know:"
+  },
+ "ja": {
+    "about-me": "About Me",
+    "about-text": {
+      "about-2": "Hey. How are you? My name is Onur.",
+      "about-3": "I am a self-taught web developer / designer. I studied Japanese Language in Ankara University in Turkey.",
+      "about-4": "I have over 2 years of work experience in web development. I speak Japanese, English and Turkish"
+    },
+    "about-list": "These are some of the technologies I know:"
+  },
+  "tr": {
+    "about-me": "About Me",
+    "about-text": {
+      "about-2": "Hey. How are you? My name is Onur.",
+      "about-3": "I am a self-taught web developer / designer. I studied Japanese Language in Ankara University in Turkey.",
+      "about-4": "I have over 2 years of work experience in web development. I speak Japanese, English and Turkish"
+    },
+    "about-list": "These are some of the technologies I know:"
+  },
+}

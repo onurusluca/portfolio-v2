@@ -1,0 +1,95 @@
+$p-font: "Spartan", sans-serif;
+$s-font: 'Poppins', sans-serif;
+
+$p-color: #01ff70;
+$s-color: #800080;
+$text-color: #e2e1e1;
+$t-color: #ffffff;
+$b-color: #222;
+
+//MediaQueries
+$xs-mobile: "only screen and (max-width: 480px)";
+$s-tablets: "only screen and (min-width: 481px) and (max-width: 767px)";
+$ls-tablets: "(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)";
+$sm-tablets: "(min-width: 768px) and (max-width: 1024px)";
+$m-laptop: "(min-width: 1025px) and (max-width: 1280px)";
+$b-desktop: "(min-width: 1281px)";
+
+/* @media #{ $ls-tablets, $sm-tablets} {
+   
+}
+@media #{$s-tablets} {
+ 
+}
+@media #{$xs-mobile} {
+  
+}
+ */
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-color: #01ff6fa3 #222222;
+}
+body {
+  background: $b-color;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $p-font;
+  color: $t-color;
+  font-weight: bold;
+}
+
+p,
+li,
+a,
+button {
+  font-family: $s-font;
+  color: $text-color;
+}
+
+ul,
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  &:visited,
+  :active,
+  :hover,
+  :link {
+    text-decoration: none;
+  }
+}
+a:active,
+a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+//Scrollbar
+body::-webkit-scrollbar {
+  width: 0.85rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #222222;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #01ff6fa3;
+  width: 1.85rem;
+}
+
+::selection {
+  color: white;
+  background: #800080a7;
+}
