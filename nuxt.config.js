@@ -77,7 +77,6 @@ export default {
     /* module options */
     UserAgent: "*",
     CrawlDelay: 120,
-    Disallow: "/",
   },
   "nuxt-compress": {
     gzip: {
