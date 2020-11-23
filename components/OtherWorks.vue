@@ -580,6 +580,7 @@
           <p>Vue.js&Vuex</p>
         </div>
       </div>
+      
       <div class="work" data-aos="fade-in" data-aos-delay="200">
               <img src="../assets/images/caspineon-icon.png" alt="" />
 
