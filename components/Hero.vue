@@ -8,7 +8,7 @@
     <p>
       {{ $t("text") }}
     </p>
-    <button>{{ $t("contactme") }}</button>
+    <a class="contact" href="mailto:uslucaonur@gmail.com"> {{ $t("contactme") }} </a>
   </div>
 </template>
 <i18n>
@@ -77,7 +77,7 @@ export default {};
     color: $text-color;
     width: 70vh;
   }
-  button {
+ .contact {
     margin-top: 5vh;
     outline: none;
     background: none;
