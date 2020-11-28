@@ -35,7 +35,7 @@
               title="Show the code on github"
               target="_blank"
               rel="”noreferrer”"
-              href="https://github.com/onurusluca/denmou"
+              href="https://github.com/onurusluca/denmou-company"
               ><svg
                 version="1.1"
                 id="Capa_1"
@@ -84,7 +84,7 @@
               title="Show the live website"
               target="_blank"
               rel="”noreferrer”"
-              href="https://denmou.herokuapp.com/"
+              href="https://denmou-company.vercel.app/"
               ><svg
                 version="1.1"
                 id="Capa_1"
