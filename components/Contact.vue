@@ -13,7 +13,7 @@
   "en": {
     "git": "Get In Touch",
     "msg": "I am currently looking for a job!",
-    "msg2": "Possibly in Japan. Got a job offer or an idea? Or you just wanna talk? I can help!",
+    "msg2": "Preferably in Japan. Got a job offer or an idea? Or you just wanna talk? I can help!",
     "btn": "Send Me An Email"
   },
   "ja": {

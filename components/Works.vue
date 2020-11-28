@@ -143,22 +143,21 @@
 
       <div class="project right" data-aos="fade-in">
         <div class="texts">
-          <h3 class="title">KaidanFit</h3>
+          <h3 class="title">Ongaku</h3>
           <p class="text">
             {{ $t("p-detail2") }}
           </p>
           <div class="tags">
-            <p>HTML</p>
+               <p>JavaScript</p>
+          <p>Vue.js</p>
             <p>CSS&SCSS</p>
-            <p>JavaScript</p>
-            <p>JQuery</p>
           </div>
           <div class="links">
             <a
               title="Show the code on github"
               target="_blank"
               rel="”noreferrer”"
-              href="https://github.com/onurusluca/kaidanfit"
+              href="https://github.com/onurusluca/ongaku-music-player"
               ><svg
                 version="1.1"
                 id="Capa_1"
@@ -207,7 +206,7 @@
               title="Show the live website"
               target="_blank"
               rel="”noreferrer”"
-              href="https://kaidanfit.netlify.app/"
+              href="https://ongakuplayer.netlify.app/"
               ><svg
                 version="1.1"
                 id="Capa_1"
@@ -266,10 +265,10 @@
           <a
             target="_blank"
             rel="”noreferrer”"
-            href="https://kaidanfit.netlify.app/"
+            href="https://ongakuplayer.netlify.app/"
           >
             <img
-              src="../assets/images/kaidan.png"
+              src="../assets/images/ongaku.png"
               alt="KaidanFit image"
               class="showcase"
             />
@@ -556,7 +555,7 @@
   "en": {
     "myworks": "My Works",
     "p-detail": "A fictional Japanese SaaS company website offering services like website making, digital marketing, social media managing etc... Made with Nuxt.js",
-    "p-detail2": "A fitness and diet program website with an innovative mobile exclusive bottom menu. Made with traditional technologies.",
+    "p-detail2": "A simple music player web app with modern UI. Designed for simplicity and style.",
     "p-detail3": "Drawing app made with canvas. User can draw on the canvas, erase, change color and brush size, add picture and download the canvas.",
     "p-detail4": "Image sharing website. It saves the image and give the user an URL. It also can short the URL for ease-of-use. Uses Firebase database."
 
@@ -564,7 +563,7 @@
   "ja": {  
     "myworks": "実績",
     "p-detail": "ウェブサイト作成、デジタルマーケティング、ソーシャルメディア管理などのサービスを提供する架空の日本のSaaS会社のウェブサイト。 Nuxt.jsで作成しました。",
-    "p-detail2": "革新的なモバイル専用ボトムメニューを備えたフィットネスおよびダイエットプログラムのウェブサイトです。 シンプルでユーザーフレンドリーになるように設計されています。 基本的な技術で作られています。",
+    "p-detail2": "最新のUIを備えたシンプルな音楽プレーヤーWebアプリです。 シンプルさとスタイルを追求して設計しました。",
     "p-detail3": "Canvasで作ったお絵かきアプリです。ユーザーはキャンバスに描画したり、色やブラシサイズの変更、画像の追加や消去、キャンバスのダウンロードなどをすることができます。",
     "p-detail4": " Firebaseデータベースを使用した画像共有サイトです。 画像を保存し、ユーザーにそのURLを提供します。 また、使いやすくするためにURLを短くすることもできます。"
 
@@ -572,7 +571,7 @@
     "tr": {  
     "myworks": "Çalışmalarım",
     "p-detail": "Web sitesi yapımı, dijital pazarlama, sosyal medya yönetimi gibi hizmetler sunan kurgusal bir Japon SaaS şirketi web sitesi ... Nuxt.js ile yapılmıştır",
-    "p-detail2": "Yenilikçi bir mobil özel alt menüye sahip bir fitness ve diyet programı web sitesi. Basit ve kullanıcı dostu olacak şekilde tasarlanmıştır. Geleneksel teknolojilerle yapılmıştır.",
+    "p-detail2": "Modern kullanıcı arayüzüne sahip basit bir müzik çalar web uygulaması. Sadelik ve şıklık için tasarlandı.",
     "p-detail3": "Canvas ile yapılmış bir çizim uygulaması. Kullanıcı çizim yapabilir, silebilir, rengi değiştirebilir, fırça boyutunu ayarlayabilir, tuvali indirebilir ve resim ekleyebilir.",
     "p-detail4": "Bir resim paylaşım sitesi. Görüntüyü kaydeder ve kullanıcıya bir URL verir. Ayrıca, kullanım kolaylığı için URL'yi kısaltabilir. Firebase veritabanını kullanır."
 

@@ -38,7 +38,38 @@
             <li class="nav-links">
               <a href="#contact">{{ $t("contact") }}</a>
             </li>
-            <p class="resume">{{ $t("resume") }}</p>
+           <div class="resumes">
+            <a
+              v-show="$i18n.locale === 'en'"
+              target="_blank"
+              rel="”noreferrer”"
+              class="resume"
+              href="https://drive.google.com/file/d/1qZ8b4Y0TAsaTYAopKmZWh71GFJ_ZuOcS/view?usp=sharing"
+              download="Usluca_Onur_Web_Developer_Resume"
+            >
+              {{ $t("resume") }}
+            </a>
+            <a
+              v-show="$i18n.locale === 'tr'"
+              target="_blank"
+              rel="”noreferrer”"
+              class="resume"
+              href="https://drive.google.com/file/d/1qZ8b4Y0TAsaTYAopKmZWh71GFJ_ZuOcS/view?usp=sharing"
+              download="Usluca_Onur_Web_Developer_Resume"
+            >
+              {{ $t("resume") }}
+            </a>
+            <a
+              v-show="$i18n.locale === 'ja'"
+              target="_blank"
+              rel="”noreferrer”"
+              class="resume"
+              href="https://drive.google.com/file/d/1rzJ99MpnL4gFB_wxvy3V7Hcbrl7FnA75/view?usp=sharing"
+              download="Usluca_Onur_日本語履歴書"
+            >
+              {{ $t("resume") }}
+            </a>
+          </div>
           </ul>
           <div class="show-lang-btn">
             <div

@@ -2,13 +2,14 @@
   <div id="other-works">
     <h2>{{ $t("title") }}</h2>
     <div class="o-work">
-      <div class="work" data-aos="fade-in" data-aos-delay="100">
-                  <img src="../assets/images/ongaku-icon.png" alt="" />
+
+    <div class="work" data-aos="fade-in" data-aos-delay="100">
+                  <img src="../assets/images/kaidanfit-icon.png" alt="" />
         <div class="links">
           <a
             title="Show the code on github"
             target="_blank" rel=”noreferrer”
-            href="https://github.com/onurusluca/ongaku-music-player"
+            href="https://github.com/onurusluca/kaidanfit"
             ><svg
               version="1.1"
               id="Capa_1"
@@ -56,7 +57,7 @@
           <a
             title="Show the live website"
             target="_blank" rel=”noreferrer”
-            href="https://ongakuplayer.netlify.app/"
+            href="https://kaidanfit.netlify.app/"
             ><svg
               version="1.1"
               id="Capa_1"
@@ -110,15 +111,19 @@
             </svg>
           </a>
         </div>
-        <h3>Ongaku</h3>
+        <h3>KaidanFit</h3>
         <p>
           {{ $t("p-detail") }}
         </p>
         <div class="tags">
-          <p>JavaScript</p>
-          <p>Vue.js</p>
+         <p>HTML</p>
+            <p>CSS&SCSS</p>
+            <p>JavaScript</p>
+            <p>JQuery</p>
         </div>
       </div>
+
+
       <div class="work" data-aos="fade-in" data-aos-delay="200">
                   <img src="../assets/images/kalendar-icon.png" alt="" />
         <div class="links">
@@ -825,7 +830,7 @@
 {
   "en": {
     "title": "Other Works",
-    "p-detail": "A simple music player web app with modern UI. Designed for simplicity and style.",
+    "p-detail": "A fitness and diet program website with an innovative mobile exclusive bottom menu. Made with traditional technologies.",
     "p-detail2": "A full-stack calendar app with event adding functionality. User data is stored in Firebase.",
     "p-detail3": "A drawing app. It has every basic function as a normal drawing app like paint.",
     "p-detail4": "My old portfolio but you are welcome to have a look and maybe get inspired :)",
@@ -836,7 +841,7 @@
 },
   "ja": {  
     "title": "その他の実績",
-    "p-detail": "最新のUIを備えたシンプルな音楽プレーヤーWebアプリです。 シンプルさとスタイルを追求して設計しました。",
+    "p-detail": "革新的なモバイル専用ボトムメニューを備えたフィットネスおよびダイエットプログラムのウェブサイトです。 シンプルでユーザーフレンドリーになるように設計されています。",
     "p-detail2": "イベント追加機能を備えたフルスタックカレンダーアプリです。 ユーザーデータはFirebaseに保存されます。",
     "p-detail3": "描画アプリです。 ペイントのような通常の描画アプリとしての基本的な機能をすべて備えています。",
     "p-detail4": "これは私の以前のポートフォリオです。あなたはきっとインスピレーションを受けるでしょう。",
@@ -846,7 +851,7 @@
   },
     "tr": {  
     "title": "Diğer Çalışmalarım",
-    "p-detail": "Modern kullanıcı arayüzüne sahip basit bir müzik çalar web uygulaması. Sadelik ve şıklık için tasarlandı.",
+    "p-detail": "Yenilikçi bir mobil özel alt menüye sahip bir fitness ve diyet programı web sitesi. Basit ve kullanıcı dostu olacak şekilde tasarlanmıştır. ",
     "p-detail2": "Yapılacaklar listesi özelliği olan full-stack bir takvim uygulaması. Kullanıcı verisi Firebase veritabanında saklanır.",
     "p-detail3": "Bir çizim uygulaması. Paint gibi normal bir çizim uygulamasında var olan her temel işlevi barındırır.",
     "p-detail4": "Eski portföyüm ama bir göz atabilir ve belki ilham alabilirsiniz :)",
