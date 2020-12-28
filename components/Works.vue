@@ -10,7 +10,7 @@
           <a
             target="_blank"
             rel="”noreferrer”"
-            href="https://denmou.herokuapp.com/"
+            href="https://denmou-company.vercel.app/"
           >
             <img
               src="../assets/images/denmou.png"
