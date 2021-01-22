@@ -3,6 +3,7 @@
     <Hero />
     <AboutMe />
     <Experience />
+    <NowWorking />
     <Works />
     <OtherWorks />
     <Contact />
@@ -16,6 +17,7 @@
 import Hero from "../components/Hero";
 import Experience from "../components/Experience";
 import AboutMe from "../components/AboutMe";
+import NowWorking from "../components/NowWorking";
 import Works from "../components/Works";
 import OtherWorks from "../components/OtherWorks";
 import Contact from "../components/Contact";
@@ -30,6 +32,7 @@ export default {
     OtherWorks,
     Footer,
     Contact,
+    NowWorking
   },
 };
 </script>
