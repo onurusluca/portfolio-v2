@@ -13,7 +13,6 @@
     "aos": "^3.0.0-beta.6",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.7",
-    "nuxt-compress": "^4.1.0",
     "nuxt-i18n": "^6.15.4",
     "nuxt-webfontloader": "^1.1.0",
     "vue-click-outside": "^1.1.0"
@@ -21,7 +20,6 @@
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
     "node-sass": "^5.0.0",
-    "sass-loader": "^10.0.5",
-    "webpack-bundle-analyzer": "^4.1.0"
+    "sass-loader": "^10.0.5"
   }
 }
