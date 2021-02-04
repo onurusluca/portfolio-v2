@@ -72,7 +72,6 @@ export default {
     ],
     // Crawler
     "@nuxtjs/robots",
-    "nuxt-compress"
   ],
   robots: {
     /* module options */
