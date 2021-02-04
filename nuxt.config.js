@@ -79,14 +79,6 @@ export default {
     UserAgent: "*",
     CrawlDelay: 120,
   },
-  "nuxt-compress": {
-    gzip: {
-      cache: true
-    },
-    brotli: {
-      threshold: 10240
-    }
-  },
   i18n: {
     locales: [
       { code: "en", name: "English", iso: "en-US" },
