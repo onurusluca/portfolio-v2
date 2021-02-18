@@ -2,7 +2,7 @@
   <div id="hero">
     <p class="greet">{{ $t("hi") }}</p>
     <h1>
-      Onur2 Usluca<span class="desu" v-show="$i18n.locale === 'ja'">です</span>
+      Onur Usluca<span class="desu" v-show="$i18n.locale === 'ja'">です</span>
     </h1>
     <h2>{{ $t("webdev") }}</h2>
     <p>
