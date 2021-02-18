@@ -9,7 +9,7 @@
       >
     </div>
     <p>{{ $t("handcraft") }}</p>
-    <a class="f-bottom" href="https://onurusluca.me/">©uslucaonur.me</a>
+    <a class="f-bottom" href="https://onurusluca.me/">©onurusluca.me™</a>
   </div>
 </template>
 <i18n>

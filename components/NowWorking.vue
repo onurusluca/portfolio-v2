@@ -6,11 +6,11 @@
     </h2>
     <a href="https://kodyolu.com/">
       <video id="kodyolu" autoplay muted loop>
-          <source src="../assets/images/kodyolu.mp4">
+        <source src="../assets/images/kodyolu.mp4" />
       </video>
     </a>
-<p> <a id="kod" href="https://kodyolu.com/">Kodyolu.</a> {{ $t("expl") }} </p>  </div>
-
+    <p><a id="kod" href="https://kodyolu.com/">Kodyolu.</a> {{ $t("expl") }}</p>
+  </div>
 </template>
 <i18n>
 {
@@ -63,29 +63,37 @@ export default {};
   }
 
   p {
-      width: 50%;
-      #kod {
-          color: $p-color;
-      }
+    width: 50%;
+    #kod {
+      color: $p-color;
+    }
   }
 
   @media #{$ls-tablets, $sm-tablets} {
-      #kodyolu {
-          width: 75vw;
-      }
-      p {
-          width: 80%;
-      }
+    width: 95%;
+
+    #kodyolu {
+      width: 75vw;
+    }
+    p {
+      width: 80%;
+    }
   }
   @media #{$xs-mobile, $s-tablets} {
+    width: 95%;
+    h2 {
+      width: inherit;
+    }
+    padding: 0;
+    margin: 30vh 0;
+    padding-left: 3vh;
+    #kodyolu {
       padding: 0;
-      margin: 30vh 0;
-      #kodyolu {
-          width: 75vw;
-      }
-      p {
-          width: 90%;
-      }
+      width: 85vw;
+    }
+    p {
+      width: 90%;
+    }
   }
 }
 </style>

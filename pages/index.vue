@@ -32,7 +32,7 @@ export default {
     OtherWorks,
     Footer,
     Contact,
-    NowWorking
+    NowWorking,
   },
 };
 </script>

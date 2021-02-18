@@ -1,9 +1,9 @@
 <template>
   <div id="contact" data-aos="fade-in" data-aos-delay="300">
     <h2>{{ $t("git") }}</h2>
-<!--     <p class="job">{{ $t("msg") }}</p>
- -->    
- <p class="job">{{ $t("not") }}</p>
+    <!--     <p class="job">{{ $t("msg") }}</p>
+ -->
+    <p class="job">{{ $t("not") }}</p>
     <p>{{ $t("msg2") }}</p>
     <a href="mailto:uslucaonur@gmail.com"> {{ $t("btn") }} </a>
     <p class="email">uslucaonur@gmail.com</p>
@@ -15,7 +15,7 @@
     "git": "Get In Touch",
     "msg": "I am currently looking for a job! Preferably in Japan.",
     "not": "I am not looking for a job but I am open to offers and ideas!",
-    "msg2": "Got a job offer or an idea? Or you just wanna talk? I can help!",
+    "msg2": "Got a job offer or an idea? Or you just wanna talk? I can help! Feel free to contact me!",
     "btn": "Send Me An Email"
   },
   "ja": {
@@ -41,8 +41,7 @@ export default {};
 
 <style lang="scss" scoped>
 #contact {
-  width: 100%;
-  padding: 30vh 0vh;
+  padding: 30vh 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,8 +58,8 @@ export default {};
   }
   .job {
     border-bottom: 1px solid $p-color;
-    width: max-content;
     margin-bottom: 1vh;
+    margin-bottom: 2vh;
   }
 
   a {
@@ -80,9 +79,13 @@ export default {};
   .email {
     font-size: 2vh;
   }
+  @media #{$ls-tablets, $sm-tablets} {
+    width: 95%;
+  }
   @media #{$xs-mobile, $s-tablets} {
+    padding: 30vh 3vh;
     p {
-      width: 90%;
+      width: inherit;
     }
   }
 }

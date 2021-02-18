@@ -2,13 +2,15 @@
   <div id="hero">
     <p class="greet">{{ $t("hi") }}</p>
     <h1>
-      Onur Usluca<span class="desu" v-show="$i18n.locale === 'ja'">です</span>
+      Onur2 Usluca<span class="desu" v-show="$i18n.locale === 'ja'">です</span>
     </h1>
     <h2>{{ $t("webdev") }}</h2>
     <p>
       {{ $t("text") }}
     </p>
-    <a class="contact" href="mailto:uslucaonur@gmail.com"> {{ $t("contactme") }} </a>
+    <a class="contact" href="mailto:uslucaonur@gmail.com">
+      {{ $t("contactme") }}
+    </a>
   </div>
 </template>
 <i18n>
@@ -68,7 +70,7 @@ export default {};
     }
   }
   h2 {
-      margin-top: -3vh;
+    margin-top: -3vh;
     font-size: 4.5vw;
     color: rgb(154, 153, 153);
   }
@@ -77,7 +79,7 @@ export default {};
     color: $text-color;
     width: 70vh;
   }
- .contact {
+  .contact {
     margin-top: 5vh;
     outline: none;
     background: none;
@@ -111,10 +113,10 @@ export default {};
     }
     h1 {
       font-size: 10vw;
-       .desu {
-      font-size: 3vw;
-      padding-left: 0;
-    }
+      .desu {
+        font-size: 3vw;
+        padding-left: 0;
+      }
     }
     h2 {
       font-size: 4vw;
@@ -131,13 +133,13 @@ export default {};
   @media #{$xs-mobile,} {
     padding-left: 5vh;
     width: 95%;
-   
+
     h1 {
       font-size: 10vw;
       .desu {
-      font-size: 3vw;
-      padding: 0;
-    }
+        font-size: 3vw;
+        padding: 0;
+      }
     }
     h2 {
       margin-top: 0;
