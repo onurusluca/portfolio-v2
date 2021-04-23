@@ -2,13 +2,13 @@
   <div id="other-works">
     <h2>{{ $t("title") }}</h2>
     <div class="o-work">
-
-    <div class="work" data-aos="fade-in" data-aos-delay="100">
-                  <img src="../assets/images/kaidanfit-icon.png" alt="" />
+      <div class="work" data-aos="fade-in" data-aos-delay="100">
+        <img src="../assets/images/kaidanfit-icon.png" alt="" />
         <div class="links">
           <a
             title="Show the code on github"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://github.com/onurusluca/kaidanfit"
             ><svg
               version="1.1"
@@ -56,7 +56,8 @@
           </a>
           <a
             title="Show the live website"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://kaidanfit.netlify.app/"
             ><svg
               version="1.1"
@@ -116,20 +117,20 @@
           {{ $t("p-detail") }}
         </p>
         <div class="tags">
-         <p>HTML</p>
-            <p>CSS&SCSS</p>
-            <p>JavaScript</p>
-            <p>JQuery</p>
+          <p>HTML</p>
+          <p>CSS&SCSS</p>
+          <p>JavaScript</p>
+          <p>JQuery</p>
         </div>
       </div>
 
-
       <div class="work" data-aos="fade-in" data-aos-delay="200">
-                  <img src="../assets/images/kalendar-icon.png" alt="" />
+        <img src="../assets/images/kalendar-icon.png" alt="" />
         <div class="links">
           <a
             title="Show the code on github"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://github.com/onurusluca/calendar-app-vue"
             ><svg
               version="1.1"
@@ -177,7 +178,8 @@
           </a>
           <a
             title="Show the live website"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://kalendar-vue.netlify.app/"
             ><svg
               version="1.1"
@@ -242,7 +244,7 @@
           <p>Back-end</p>
         </div>
       </div>
-<!--       <div class="work" data-aos="fade-in" data-aos-delay="300">
+      <!--       <div class="work" data-aos="fade-in" data-aos-delay="300">
                  <img src="../assets/images/egaki-icon.png" alt="" />
         <div class="links">
           <a title="Show the code on github" target="_blank" rel=”noreferrer” href="#"
@@ -355,11 +357,12 @@
         </div>
       </div> -->
       <div class="work" data-aos="fade-in" data-aos-delay="300">
-               <img src="../assets/images/onursmovies-icon.png" alt="" />
+        <img src="../assets/images/onursmovies-icon.png" alt="" />
         <div class="links">
           <a
             title="Show the code on github"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://github.com/onurusluca/onurs-movies"
             ><svg
               version="1.1"
@@ -407,7 +410,8 @@
           </a>
           <a
             title="Show the live website"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://onur-movies.herokuapp.com/"
             ><svg
               version="1.1"
@@ -474,10 +478,14 @@
         </div>
       </div>
       <div class="work" data-aos="fade-in" data-aos-delay="100">
-               <img src="../assets/images/pv1-icon.png" alt="" />
+        <img src="../assets/images/pv1-icon.png" alt="" />
 
         <div class="links">
-          <a title="Show the code on github" target="_blank" rel=”noreferrer” href="https://github.com/onurusluca/portfolioV1"
+          <a
+            title="Show the code on github"
+            target="_blank"
+            rel="”noreferrer”"
+            href="https://github.com/onurusluca/portfolioV1"
             ><svg
               version="1.1"
               id="Capa_1"
@@ -522,7 +530,11 @@
               <g></g>
             </svg>
           </a>
-          <a title="Show the live website" target="_blank" rel=”noreferrer” href="https://uslucaonurv1.netlify.app/en"
+          <a
+            title="Show the live website"
+            target="_blank"
+            rel="”noreferrer”"
+            href="https://uslucaonurv1.netlify.app/en"
             ><svg
               version="1.1"
               id="Capa_1"
@@ -585,14 +597,15 @@
           <p>Vue.js&Vuex</p>
         </div>
       </div>
-      
+
       <div class="work" data-aos="fade-in" data-aos-delay="200">
-              <img src="../assets/images/caspineon-icon.png" alt="" />
+        <img src="../assets/images/caspineon-icon.png" alt="" />
 
         <div class="links">
           <a
             title="Show the code on github"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://github.com/onurusluca/caspineon"
             ><svg
               version="1.1"
@@ -640,7 +653,8 @@
           </a>
           <a
             title="Show the live website"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://caspineon.netlify.app/"
             ><svg
               version="1.1"
@@ -706,11 +720,12 @@
         </div>
       </div>
       <div class="work" data-aos="fade-in" data-aos-delay="300">
-               <img src="../assets/images/todo-icon.png" alt="" />
+        <img src="../assets/images/todo-icon.png" alt="" />
         <div class="links">
           <a
             title="Show the code on github"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://github.com/onurusluca/todo-or-nottodo"
             ><svg
               version="1.1"
@@ -758,7 +773,8 @@
           </a>
           <a
             title="Show the live website"
-            target="_blank" rel=”noreferrer”
+            target="_blank"
+            rel="”noreferrer”"
             href="https://todo-or-nottodo.netlify.app/"
             ><svg
               version="1.1"
@@ -841,7 +857,7 @@
 },
   "ja": {  
     "title": "その他の実績",
-    "p-detail": "革新的なモバイル専用ボトムメニューを備えたフィットネスおよびダイエットプログラムのウェブサイトです。 シンプルでユーザーフレンドリーになるように設計されています。",
+    "p-detail": "革新的なモバイル専用ボトムメニューを備えたフィットネスおよびダイエットプログラムのウェブサイトです。",
     "p-detail2": "イベント追加機能を備えたフルスタックカレンダーアプリです。 ユーザーデータはFirebaseに保存されます。",
     "p-detail3": "描画アプリです。 ペイントのような通常の描画アプリとしての基本的な機能をすべて備えています。",
     "p-detail4": "これは私の以前のポートフォリオです。あなたはきっとインスピレーションを受けるでしょう。",
@@ -851,7 +867,7 @@
   },
     "tr": {  
     "title": "Diğer Çalışmalarım",
-    "p-detail": "Yenilikçi bir mobil özel alt menüye sahip bir fitness ve diyet programı web sitesi. Basit ve kullanıcı dostu olacak şekilde tasarlanmıştır. ",
+    "p-detail": "Yenilikçi bir mobil özel alt menüye sahip bir fitness ve diyet programı web sitesi. ",
     "p-detail2": "Yapılacaklar listesi özelliği olan full-stack bir takvim uygulaması. Kullanıcı verisi Firebase veritabanında saklanır.",
     "p-detail3": "Bir çizim uygulaması. Paint gibi normal bir çizim uygulamasında var olan her temel işlevi barındırır.",
     "p-detail4": "Eski portföyüm ama bir göz atabilir ve belki ilham alabilirsiniz :)",
@@ -900,18 +916,18 @@ export default {};
       &:hover {
         background: rgb(39, 39, 39);
       }
-             img {
-          position: absolute;
-          top: 3vh;
-          left: 4vh;
-          filter: grayscale(100%);
-        }
+      img {
+        position: absolute;
+        top: 3vh;
+        left: 4vh;
+        filter: grayscale(100%);
+      }
       .links {
         position: absolute;
         right: 3vh;
         top: 3vh;
         margin-bottom: 2vh;
- 
+
         svg {
           margin: 0 1vh;
           width: 3.5vh;
@@ -947,8 +963,8 @@ export default {};
     padding: 0;
     .o-work {
       .work {
-      width: 90%;
-    }
+        width: 90%;
+      }
     }
   }
 }
