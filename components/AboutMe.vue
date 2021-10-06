@@ -21,14 +21,16 @@
         <ul>
           <li>HTML & CCS (SCSS)</li>
           <li>JavaScript (ES+)</li>
-          <li>Vue.js & Nuxt.js</li>
+          <li>Vue.js(Vuex) & Nuxt.js</li>
           <li>Node.js & Express.js</li>
+          <li>Browser Extensions</li>
         </ul>
         <ul>
-          <li>AdobeXD & Photoshop</li>
-          <li>Version Control (Git)</li>
-          <li>Wordpress</li>
-          <li>Firebase</li>
+          <li>AdobeXD & Figma</li>
+          <li>UI/UX Design</li>
+          <li>Photoshop & Adobe Premiere</li>
+          <li>Wordpress & Templates</li>
+          <li>Version Control(Git)</li>
         </ul>
       </div>
     </div>
@@ -42,11 +44,11 @@
   "en": {
     "about-me": "About Me",
     "about-text": {
-      "about-2": "Hey. How are you? My name is Onur.",
+      "about-2": "Hi! How are you? I am Onur.",
       "about-3": "I am a self-taught web developer / designer. I studied Japanese Language and Literature in Ankara University in Turkey.",
       "about-4": "I have over 2 years of work experience in web development. I speak Japanese, English and Turkish"
     },
-    "about-list": "These are some of the technologies I know:"
+    "about-list": "These are some of the things I know:"
   },
  "ja": {
     "about-me": "私について",
@@ -55,7 +57,7 @@
       "about-3": "トルコのアンカラ大学で日本語日本文学科を卒業しました。日本語、英語、トルコ語を話します。",
       "about-4": "私は独学のWeb開発者 & デザイナーです。Web開発で2年以上の実務経験があります。"
     },
-    "about-list": "こちらは私が知っている技術のいくつかです："
+    "about-list": "こちらは私が知っていることのいくつかです："
   },
   "tr": {
     "about-me": "Hakkımda",
@@ -64,7 +66,7 @@
       "about-3": "Ben otodidakt bir web geliştiricisi & tasarımcısıyım. Türkiye'de Ankara Üniversitesi'nde Japon Dili ve Edebiyatı okudum.",
       "about-4": "Web geliştirme alanında 2 yıldan fazla iş deneyimim var. Japonca, İngilizce ve Türkçe biliyorum."
     },
-    "about-list": "Bunlar bildiğim teknolojilerden bazıları:"
+    "about-list": "Bunlar bildiğim şeylerden bazıları:"
   }
 }
 

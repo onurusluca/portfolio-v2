@@ -9,7 +9,10 @@
         <source src="../assets/images/kodyolu.mp4" />
       </video>
     </a>
-    <p><a id="kod" href="https://kodyolu.com/">Kodyolu.</a> {{ $t("expl") }}</p>
+    <p>
+      <a id="kod" href="https://kodyolu.vercel.app/">Kodyolu.</a>
+      {{ $t("expl") }}
+    </p>
   </div>
 </template>
 <i18n>
@@ -18,12 +21,12 @@
     "title": "What I am working on lately",
     "expl": "A website that helps people get into software development and find a job"
    },
-  "ja": {  
-    "title": "What I am working on lately",
+  "ja": {
+    "title": "最近の取り組み",
     "expl": "人々がソフトウェア開発に入り、仕事を見つけるのを助けるウェブサイト。"
 },
-    "tr": {  
-    "title": "What I am working on lately",
+    "tr": {
+    "title": "Şu anda üzerinde çalıştığım proje",
     "expl": "İnsanların yazılım geliştirmeye başlamasına ve iş bulmasına yardımcı olan bir web sitesi."
   }
 }

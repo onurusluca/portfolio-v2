@@ -1,7 +1,5 @@
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
-  ssr: false,
-  target: 'static',
 
   // Target (https://go.nuxtjs.dev/config-target)
 
@@ -71,12 +69,12 @@ export default {
       }
     ],
     // Crawler
-    "@nuxtjs/robots",
+    "@nuxtjs/robots"
   ],
   robots: {
     /* module options */
     UserAgent: "*",
-    CrawlDelay: 120,
+    CrawlDelay: 120
   },
   i18n: {
     locales: [
