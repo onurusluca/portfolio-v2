@@ -2,7 +2,10 @@
   <div id="hero">
     <p class="greet">{{ $t("hi") }}</p>
     <h1>
-      Onur Usluca<span class="desu" v-show="$i18n.locale === 'ja'">です</span>
+      Onur Usluca<span class="katakana" v-show="$i18n.locale === 'ja'"
+        >(ウスルジャ オヌル)</span
+      >
+      <span class="desu" v-show="$i18n.locale === 'ja'">です</span>
     </h1>
     <h2>{{ $t("webdev") }}</h2>
     <p>
@@ -16,20 +19,20 @@
 <i18n>
 {
   "en": {
-      "hi": "Hi, I am",
+      "hi": "Hi! I am",
       "webdev": "Web Developer / Designer",
-      "text": "I create highly responsive, easy-to-use, simple but elegant websites and applications. I care about 'user-friendliness' a great deal.",
+      "text": "I create highly responsive, easy-to-use, simple but elegant websites and applications. I care about 'user-friendliness' a great deal. I also have a passion for UI design and UX. ",
       "contactme": "Get In Touch"
   },
   "ja": {
       "hi": "こんにちは！私は",
-      "text": "私は、応答性が高く、使いやすく、シンプルでありながら エレガントなWebサイトとアプリケーションを作成しています。 私は「使いやすさ」を大いに 気にかけています。",
+      "text": "私は、応答性が高く、使いやすく、シンプルでありながら エレガントなWebサイトとアプリケーションを作成しています。「使いやすさ」を大いに気にかけています。UIデザインとUXにも情熱を注いでいます。",
       "webdev": "Web開発者 / デザイナー",
       "contactme": "お問い合わせ"
   },
   "tr": {
       "hi": "Merhaba! Ben",
-      "text": "Mobil optimizasyonlu, kullanımı kolay, basit ama zarif web siteleri ve uygulamalar oluşturuyorum. 'Kullanıcı dostu olma' konusuna çok önem veriyorum.",
+      "text": "Mobil optimizasyonlu, kullanımı kolay, basit ama zarif web siteleri ve uygulamalar oluşturuyorum. 'Kullanıcı dostu olma' konusuna çok önem veririm. UI tasarımı ve UX alanlarına da büyük ilgim var.",
       "webdev": "Web Geliştiricisi / Tasarımcısı",
       "contactme": "Bana Ulaşın"
   }
@@ -63,9 +66,13 @@ export default {};
     padding: 0;
     margin: 0;
     word-break: keep-all;
+    .katakana {
+      font-size: 3vh;
+      padding-left: 2vh;
+    }
     .desu {
       font-size: 3vh;
-      color: $p-color;
+      color: $t-color;
       padding-left: 2vh;
     }
   }

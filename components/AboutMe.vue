@@ -46,7 +46,7 @@
     "about-text": {
       "about-2": "Hi! How are you? I am Onur.",
       "about-3": "I am a self-taught web developer / designer. I studied Japanese Language and Literature in Ankara University in Turkey.",
-      "about-4": "I have over 2 years of work experience in web development. I speak Japanese, English and Turkish"
+      "about-4": "I have over 3 years of work experience in web development. I speak Japanese, English and Turkish"
     },
     "about-list": "These are some of the things I know:"
   },
@@ -55,7 +55,7 @@
     "about-text": {
       "about-2": "こんにちは。はじめまして、 オヌルと言います。",
       "about-3": "トルコのアンカラ大学で日本語日本文学科を卒業しました。日本語、英語、トルコ語を話します。",
-      "about-4": "私は独学のWeb開発者 & デザイナーです。Web開発で2年以上の実務経験があります。"
+      "about-4": "私は独学のWeb開発者 & デザイナーです。Web開発で3年以上の実務経験があります。"
     },
     "about-list": "こちらは私が知っていることのいくつかです："
   },
@@ -64,7 +64,7 @@
     "about-text": {
       "about-2": "Merhaba. Nasılsınız? Ben Onur",
       "about-3": "Ben otodidakt bir web geliştiricisi & tasarımcısıyım. Türkiye'de Ankara Üniversitesi'nde Japon Dili ve Edebiyatı okudum.",
-      "about-4": "Web geliştirme alanında 2 yıldan fazla iş deneyimim var. Japonca, İngilizce ve Türkçe biliyorum."
+      "about-4": "Web geliştirme alanında 3 yıldan fazla iş deneyimim var. Japonca, İngilizce ve Türkçe biliyorum."
     },
     "about-list": "Bunlar bildiğim şeylerden bazıları:"
   }

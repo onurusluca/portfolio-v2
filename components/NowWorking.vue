@@ -4,7 +4,7 @@
       {{ $t("title") }}
       <hr />
     </h2>
-    <a href="https://kodyolu.com/">
+    <a href="https://kodyolu.vercel.app/">
       <video id="kodyolu" autoplay muted loop>
         <source src="../assets/images/kodyolu.mp4" />
       </video>

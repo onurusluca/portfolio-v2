@@ -15,14 +15,14 @@
 <i18n>
 {
   "en": {
-    "handcraft": " Handcrafted with love and care by Onur Usluca."
+    "handcraft": "Handcrafted with love and care by"
   },
   "ja": {
-    "handcraft": "  私が心を込めて作ったウェブサイトです"
+    "handcraft": "心を込まれて作られたウェブサイトです"
 
   },
   "tr": {
-    "handcraft": "  Sevgi ve özenle hazırlanmıştır."
+    "handcraft": "Sevgi ve özenle hazırlanmıştır."
 
   }
 }

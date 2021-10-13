@@ -1,9 +1,10 @@
 <template>
   <div id="contact" data-aos="fade-in" data-aos-delay="300">
     <h2>{{ $t("git") }}</h2>
-    <!--     <p class="job">{{ $t("msg") }}</p>
+    <p class="job">{{ $t("msg") }}</p>
+
+    <!--     <p class="job">{{ $t("not") }}</p>
  -->
-    <p class="job">{{ $t("not") }}</p>
     <p>{{ $t("msg2") }}</p>
     <a href="mailto:uslucaonur@gmail.com"> {{ $t("btn") }} </a>
     <p class="email">uslucaonur@gmail.com</p>

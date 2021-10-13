@@ -1,6 +1,7 @@
 <template>
   <div>
-    <Loading />
+    <!--     <Loading />
+ -->
     <Navbar />
     <MobileNav />
     <Nuxt />
@@ -10,8 +11,8 @@
 <script>
 import Navbar from "../components/Navigation/Navbar";
 import MobileNav from "../components/Navigation/MobileNav";
-import Loading from "../components/Loading";
-
+/* import Loading from "../components/Loading";
+ */
 import Vue from "vue";
 /* Scroll mixin */
 import scrollShow from "../mixins/scrollShow";
@@ -35,7 +36,8 @@ export default {
   components: {
     Navbar,
     MobileNav,
-    Loading,
+    /*     Loading,
+     */
   },
 };
 </script>
@@ -107,6 +109,4 @@ textarea,
 select {
   font: inherit;
 }
-
-
 </style>
