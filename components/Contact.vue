@@ -61,6 +61,7 @@ export default {};
     border-bottom: 1px solid $p-color;
     margin-bottom: 1vh;
     margin-bottom: 2vh;
+    padding-bottom: 1.5vh;
   }
 
   a {

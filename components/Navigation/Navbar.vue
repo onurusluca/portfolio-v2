@@ -10,12 +10,14 @@
           class="nav-list slide-in-blurred-top"
           :class="{ 'scroll-nav': scrollNav }"
         >
-         <li> <nuxt-link
-            :to="localePath('/')"
-            id="logo1"
-            :class="{ 'scroll-nav': scrollNav }"
-            ><img src="~assets/images/logo.png" alt="Logo Image" />
-          </nuxt-link></li>
+          <li>
+            <nuxt-link
+              :to="localePath('/')"
+              id="logo1"
+              :class="{ 'scroll-nav': scrollNav }"
+              ><img src="~assets/images/logo.png" alt="Logo Image" />
+            </nuxt-link>
+          </li>
           <li class="nav-links">
             <a href="#about-me">{{ $t("about") }}</a>
           </li>
@@ -187,7 +189,7 @@ export default {
     transform: translate3d(0, -120%, 0);
   }
   &.scroll-nav {
-    background-color: rgba(34, 34, 34, 0.807);
+    background-color: rgba(34, 34, 34, 0.89);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     #logo1 {
       img {

@@ -5,9 +5,7 @@
       <hr />
     </h2>
     <a href="https://kodyolu.vercel.app/">
-      <video id="kodyolu" autoplay muted loop>
-        <source src="../assets/images/kodyolu.mp4" />
-      </video>
+      <img class="kodyolu" src="../assets/images/kodyolu.png" alt="" />
     </a>
     <p>
       <a id="kod" href="https://kodyolu.vercel.app/">Kodyolu.</a>
@@ -54,8 +52,8 @@ export default {};
     width: 60vh;
   }
 
-  #kodyolu {
-    width: 120vh;
+  .kodyolu {
+    width: 100vh;
     border-radius: 3vh;
     box-shadow: 0 12px 10px rgba(0, 0, 0, 0.5);
     transition: all 500ms;
