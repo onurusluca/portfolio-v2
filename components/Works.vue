@@ -195,7 +195,7 @@
     "p-detail": "A fictional Japanese SaaS company website offering services like website making, digital marketing, social media managing etc... Made with Nuxt.js",
     "p-detail2": "A simple music player web app with modern UI. Designed for simplicity and style.",
     "p-detail3": "Drawing app made with canvas. User can draw on the canvas, erase, change color and brush size, add picture and download the canvas.",
-    "p-detail4": "Image sharing website. It saves the image and give the user an URL. It also can short the URL for ease-of-use. Uses Firebase database."
+    "p-detail4": "Image sharing website. It saves the image and give the user an URL. Uses Firebase database."
 
   },
   "ja": {
@@ -203,7 +203,7 @@
     "p-detail": "ウェブサイト作成、デジタルマーケティング、ソーシャルメディア管理などのサービスを提供する架空の日本のSaaS会社のウェブサイト。 Nuxt.jsで作成しました。",
     "p-detail2": "最新のUIを備えたシンプルな音楽プレーヤーWebアプリです。 シンプルさとスタイルを追求して設計しました。",
     "p-detail3": "Canvasで作ったお絵かきアプリです。ユーザーはキャンバスに描画したり、色やブラシサイズの変更、画像の追加や消去、キャンバスのダウンロードなどをすることができます。",
-    "p-detail4": " Firebaseデータベースを使用した画像共有サイトです。 画像を保存し、ユーザーにそのURLを提供します。 また、使いやすくするためにURLを短くすることもできます。"
+    "p-detail4": " Firebaseデータベースを使用した画像共有サイトです。 画像を保存し、ユーザーにそのURLを提供します。"
 
 },
     "tr": {
@@ -211,7 +211,7 @@
     "p-detail": "Web sitesi yapımı, dijital pazarlama, sosyal medya yönetimi gibi hizmetler sunan kurgusal bir Japon SaaS şirketi web sitesi ... Nuxt.js ile yapılmıştır",
     "p-detail2": "Modern kullanıcı arayüzüne sahip basit bir müzik çalar web uygulaması. Sadelik ve şıklık için tasarlandı.",
     "p-detail3": "Canvas ile yapılmış bir çizim uygulaması. Kullanıcı çizim yapabilir, silebilir, rengi değiştirebilir, fırça boyutunu ayarlayabilir, tuvali indirebilir ve resim ekleyebilir.",
-    "p-detail4": "Bir resim paylaşım sitesi. Görüntüyü kaydeder ve kullanıcıya bir URL verir. Ayrıca, kullanım kolaylığı için URL'yi kısaltabilir. Firebase veritabanını kullanır."
+    "p-detail4": "Bir resim paylaşım sitesi. Görüntüyü kaydeder ve kullanıcıya bir URL verir. Firebase veritabanını kullanır."
 
   }
 }
