@@ -3,7 +3,7 @@ export default {
 
   // Target (https://go.nuxtjs.dev/config-target)
 
-  target: "static", // default is 'server'
+ // target: "static", // default is 'server'
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
