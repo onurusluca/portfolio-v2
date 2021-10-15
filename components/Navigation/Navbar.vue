@@ -93,8 +93,7 @@
               v-show="showLangList"
             >
               <nuxt-link
-                tag="li"
-                hi
+                class="change-language-btn"
                 v-for="locale in availableLocales"
                 :key="locale.code"
                 :to="switchLocalePath(locale.code)"
@@ -358,7 +357,7 @@ export default {
     padding: 0;
     z-index: 5;
     user-select: none;
-    li {
+    .change-language-btn {
       border-radius: 0.5vh;
       text-align: center;
       width: 100%;

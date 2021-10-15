@@ -187,7 +187,7 @@ export default {
 
         img {
           position: relative;
-          width: 45vw;
+          width: 60vw;
           border-radius: 0.8vh;
           box-shadow: 0 12px 10px rgba(0, 0, 0, 0.5);
           transition: all 200ms;
@@ -285,21 +285,36 @@ export default {
       }
     }
   }
-  @media #{$ls-tablets, $sm-tablets} {
-    padding: 10vh 5vh;
-    margin: 0;
+
+  @media #{$m-laptop} {
     .projects {
       .project {
         .image-container {
+          margin: 5vh 10vh 10vh 10vh;
+
           img {
-            width: 55vh;
+            width: 70vw;
+            filter: grayscale(0);
           }
         }
         margin: 2vh;
       }
+      .right {
+        text-align: left;
+        .texts {
+          margin-right: -20vh;
+        }
+      }
+      .left {
+        text-align: right;
+        .texts {
+          margin-left: -20vh;
+        }
+      }
     }
   }
-  @media #{$xs-mobile, $s-tablets} {
+
+  @media #{$xs-mobile, $s-tablets, $ls-tablets, $sm-tablets} {
     padding: 10vh 4vh;
     margin: 0;
     .projects {
@@ -313,6 +328,7 @@ export default {
           width: max-content;
           img {
             width: 75vw;
+            filter: grayscale(0);
           }
         }
       }

@@ -4,41 +4,39 @@
     :class="{ 'hidden-mnav': !showOnScroll, 'scroll-mnav': scrollNav }"
   >
     <div class="mobile-logo">
-      <nuxt-link
-        :to="localePath('/')"
-        :class="{ 'scroll-nav': scrollNav }"
+      <nuxt-link :to="localePath('/')" :class="{ 'scroll-nav': scrollNav }"
         ><img src="~assets/images/logo.png" alt="Mobile Logo" />
       </nuxt-link>
     </div>
-    <div :class="{ 'hide-ham-btn': !showOnScroll }"  @click="openHam = !openHam"
- class="hamburger-btn">
-      <div
-        class="ham-lines"
-        :class="{ change: openHam }"
-      >
+    <div
+      :class="{ 'hide-ham-btn': !showOnScroll }"
+      @click="openHam = !openHam"
+      class="hamburger-btn"
+    >
+      <div class="ham-lines" :class="{ change: openHam }">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
       </div>
-          </div>
+    </div>
 
-      <div v-show="openHam" class="blurred-back"></div>
-      <transition name="translateX">
-        <div v-click-outside="hide" class="ham-menu" v-show="openHam">
-          <ul class="mobile-nav-list">
-            <li class="nav-links">
-              <a href="#about">{{ $t("about") }}</a>
-            </li>
-            <li class="nav-links">
-              <a href="#experience">{{ $t("experience") }}</a>
-            </li>
-            <li class="nav-links">
-              <a href="#works">{{ $t("works") }}</a>
-            </li>
-            <li class="nav-links">
-              <a href="#contact">{{ $t("contact") }}</a>
-            </li>
-           <div class="resumes">
+    <div v-show="openHam" class="blurred-back"></div>
+    <transition name="translateX">
+      <div v-click-outside="hide" class="ham-menu" v-show="openHam">
+        <ul class="mobile-nav-list">
+          <li class="nav-links">
+            <a href="#about">{{ $t("about") }}</a>
+          </li>
+          <li class="nav-links">
+            <a href="#experience">{{ $t("experience") }}</a>
+          </li>
+          <li class="nav-links">
+            <a href="#works">{{ $t("works") }}</a>
+          </li>
+          <li class="nav-links">
+            <a href="#contact">{{ $t("contact") }}</a>
+          </li>
+          <div class="resumes">
             <a
               v-show="$i18n.locale === 'en'"
               target="_blank"
@@ -70,51 +68,45 @@
               {{ $t("resume") }}
             </a>
           </div>
-          </ul>
-          <div class="show-lang-btn">
-            <div
-              class="lang-btn"
-              v-show="$i18n.locale === 'en'"
-              @click="showLangList = !showLangList"
-            >
-              <p>ENG</p>
-            </div>
-            <div
-              class="lang-btn"
-              v-show="$i18n.locale === 'ja'"
-              @click="showLangList = !showLangList"
-            >
-              <p>言語</p>
-            </div>
-            <div
-              class="lang-btn"
-              v-show="$i18n.locale === 'tr'"
-              @click="showLangList = !showLangList"
-            >
-              <p>TR</p>
-            </div>
+        </ul>
+        <div class="show-lang-btn">
+          <div
+            class="lang-btn"
+            v-show="$i18n.locale === 'en'"
+            @click="showLangList = !showLangList"
+          >
+            <p>ENG</p>
           </div>
-
-          <transition name="fade">
-            <ul
-              v-click-outside="hide"
-              class="lang-changer"
-              v-show="showLangList"
-            >
-              <nuxt-link
-                tag="li"
-                hi
-                v-for="locale in availableLocales"
-                :key="locale.code"
-                :to="switchLocalePath(locale.code)"
-                s
-              >
-                {{ locale.name }}
-              </nuxt-link>
-            </ul>
-          </transition>
+          <div
+            class="lang-btn"
+            v-show="$i18n.locale === 'ja'"
+            @click="showLangList = !showLangList"
+          >
+            <p>言語</p>
+          </div>
+          <div
+            class="lang-btn"
+            v-show="$i18n.locale === 'tr'"
+            @click="showLangList = !showLangList"
+          >
+            <p>TR</p>
+          </div>
         </div>
-      </transition>
+
+        <transition name="fade">
+          <ul v-click-outside="hide" class="lang-changer" v-show="showLangList">
+            <nuxt-link
+              class="change-language-btn"
+              v-for="locale in availableLocales"
+              :key="locale.code"
+              :to="switchLocalePath(locale.code)"
+            >
+              {{ locale.name }}
+            </nuxt-link>
+          </ul>
+        </transition>
+      </div>
+    </transition>
   </div>
 </template>
 <i18n>
@@ -332,7 +324,7 @@ export default {
       padding: 0vh 0.5vh;
       margin-top: 8vh;
       -webkit-tap-highlight-color: transparent;
-          user-select: none;
+      user-select: none;
       p {
         transition: all 100ms;
         font-weight: bold;
@@ -359,7 +351,7 @@ export default {
     border-radius: 0.5vh;
     padding: 0;
     z-index: 5;
-    li {
+    .change-language-btn {
       border-radius: 0.5vh;
       text-align: center;
       width: 100%;
