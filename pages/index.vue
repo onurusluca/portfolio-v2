@@ -11,6 +11,9 @@
       <Works />
     </LazyHydrate>
     <LazyHydrate when-visible>
+      <Design />
+    </LazyHydrate>
+    <LazyHydrate when-visible>
       <OtherWorks />
     </LazyHydrate>
     <LazyHydrate when-visible>
@@ -45,6 +48,7 @@ export default {
     OtherWorks: () => import("../components/OtherWorks"),
     Footer: () => import("../components/Navigation/Footer.vue"),
     Contact: () => import("../components/Contact"),
+    Design: () => import("../components/Design"),
   },
 };
 </script>

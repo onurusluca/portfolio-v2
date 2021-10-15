@@ -144,10 +144,6 @@ export default {};
     }
   }
 
-  .space {
-    margin: 2vh 0;
-  }
-
   .right-about {
     box-shadow: 8px 8px 0px 0px $p-color;
     border-radius: 0.5vh;
@@ -158,7 +154,7 @@ export default {};
       height: 38vh;
       object-fit: cover;
       border-radius: 0.5vh;
-      transition: all 400ms;
+      transition: all 200ms;
       filter: grayscale(100%);
       &:hover {
         filter: grayscale(0);
@@ -170,7 +166,7 @@ export default {};
     padding: 5vh;
     margin: 5vh;
     .right-about {
-      margin-top: 20vh;
+      margin-top: 10vh;
     }
   }
   @media #{$xs-mobile, $s-tablets} {
@@ -188,7 +184,7 @@ export default {};
       }
     }
     .right-about {
-      margin-top: 2vh;
+      margin-top: 0vh;
     }
   }
 }

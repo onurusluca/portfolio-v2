@@ -1,7 +1,7 @@
 <template>
   <div id="works">
     <h2>
-      {{ $t("myworks") }}
+      {{ $t("mydesigns") }}
       <hr />
     </h2>
     <div class="projects">
@@ -10,40 +10,32 @@
           <a
             target="_blank"
             rel="”noreferrer”"
-            href="https://denmou-company.vercel.app/"
+            href="https://www.figma.com/file/EZLvdvFgHZ7O7mXPaeUJfD/Ennka-Japanese-Enka-Music-Platform-Concept-演歌音楽プラットフォーム-Spotify-Clone?node-id=4%3A385"
           >
             <img
-              src="../assets/images/denmou.png"
+              src="../assets/images/ennka.png"
               alt="Denmou image"
               class="showcase"
             />
           </a>
         </div>
         <div class="texts">
-          <h3 class="title">Denmou</h3>
+          <h3 class="title">Ennka</h3>
           <p class="text">
-            {{ $t("p-detail-denmou") }}
+            {{ $t("p-detail-ennka") }}
           </p>
           <div class="tags">
-            <p>HTML</p>
-            <p>CSS&SCSS</p>
-            <p>JavaScript</p>
-            <p>Vue.js/Nuxt.js</p>
+            <p>Design</p>
+            <p>Figma</p>
+            <p>Website Design</p>
+            <p>Congested Design</p>
           </div>
           <div class="links">
-            <a
-              title="Show the code on github"
-              target="_blank"
-              rel="”noreferrer”"
-              href="https://github.com/onurusluca/denmou-company"
-            >
-              <github-svg />
-            </a>
             <a
               title="Show the live website"
               target="_blank"
               rel="”noreferrer”"
-              href="https://denmou-company.vercel.app/"
+              href="https://www.figma.com/file/EZLvdvFgHZ7O7mXPaeUJfD/Ennka-Japanese-Enka-Music-Platform-Concept-演歌音楽プラットフォーム-Spotify-Clone?node-id=4%3A385"
             >
               <outlink-svg />
             </a>
@@ -53,29 +45,22 @@
 
       <div class="project right" data-aos="fade-in">
         <div class="texts">
-          <h3 class="title">Ongaku</h3>
+          <h3 class="title">OhBento!</h3>
           <p class="text">
-            {{ $t("p-detail-ongaku") }}
+            {{ $t("p-detail-ohbento") }}
           </p>
           <div class="tags">
-            <p>JavaScript</p>
-            <p>Vue.js</p>
-            <p>CSS&SCSS</p>
+            <p>Design</p>
+            <p>Figma</p>
+            <p>App Design</p>
+            <p>Clean Design</p>
           </div>
           <div class="links">
-            <a
-              title="Show the code on github"
-              target="_blank"
-              rel="”noreferrer”"
-              href="https://github.com/onurusluca/ongaku-music-player"
-            >
-              <github-svg />
-            </a>
             <a
               title="Show the live website"
               target="_blank"
               rel="”noreferrer”"
-              href="https://ongakuplayer.netlify.app/"
+              href="https://www.figma.com/file/Ltj16yqUVXDgjXWlzeAhWC/OhBento-Japanese-Bentou-Shopping-Concept-App-お弁当ショッピングコンセプトアプリ?node-id=1%3A8"
             >
               <outlink-svg />
             </a>
@@ -85,10 +70,10 @@
           <a
             target="_blank"
             rel="”noreferrer”"
-            href="https://ongakuplayer.netlify.app/"
+            href="https://www.figma.com/file/Ltj16yqUVXDgjXWlzeAhWC/OhBento-Japanese-Bentou-Shopping-Concept-App-お弁当ショッピングコンセプトアプリ?node-id=1%3A8"
           >
             <img
-              src="../assets/images/ongaku.png"
+              src="../assets/images/ohbento.png"
               alt="KaidanFit image"
               class="showcase"
             />
@@ -101,129 +86,74 @@
           <a
             target="_blank"
             rel="”noreferrer”"
-            href="https://egaki.netlify.app/"
+            href="https://www.figma.com/file/4Oihnv3HYx5UEEOGAWGIbr/Social-Media-Clones-ソーシャルメディアのクローン?node-id=0%3A1"
           >
             <img
-              src="../assets/images/egaki.png"
-              alt="Denmou image"
+              src="../assets/images/sosyal.png"
+              alt="KaidanFit image"
               class="showcase"
             />
           </a>
         </div>
         <div class="texts">
-          <h3 class="title">Egaki</h3>
+          <h3 class="title">Sosyal</h3>
           <p class="text">
-            {{ $t("p-detail-egaki") }}
+            {{ $t("p-detail-social") }}
           </p>
           <div class="tags">
-            <p>Canvas</p>
-            <p>Draw</p>
-            <p>JavaScript</p>
-            <p>Touch Inputs</p>
+            <p>Design</p>
+            <p>Figma</p>
+            <p>App Design</p>
+            <p>Website Design</p>
           </div>
           <div class="links">
-            <a
-              title="Show the code on github"
-              target="_blank"
-              rel="”noreferrer”"
-              href="https://github.com/onurusluca/egaki"
-            >
-              <github-svg />
-            </a>
             <a
               title="Show the live website"
               target="_blank"
               rel="”noreferrer”"
-              href="https://egaki.netlify.app/"
+              href="https://www.figma.com/file/4Oihnv3HYx5UEEOGAWGIbr/Social-Media-Clones-ソーシャルメディアのクローン?node-id=0%3A1"
             >
               <outlink-svg />
             </a>
           </div>
         </div>
       </div>
-
-      <!--       <div class="project right" data-aos="fade-in">
-        <div class="texts">
-          <h3 class="title">FotoShare</h3>
-          <p class="text">
-            {{ $t("p-detail-fotoshare") }}
-          </p>
-          <div class="tags">
-            <p>Firebase</p>
-            <p>JavaScript</p>
-            <p>URL Shortening</p>
-            <p>Image Sharing</p>
-          </div>
-          <div class="links">
-            <a
-              title="Show the code on github"
-              target="_blank"
-              rel="”noreferrer”"
-              href="https://github.com/onurusluca/fotoshare"
-              ><github-svg />
-            </a>
-            <a
-              title="Show the live website"
-              target="_blank"
-              rel="”noreferrer”"
-              href="https://fotoshare.netlify.app/"
-              ><outlink-svg />
-            </a>
-          </div>
-        </div>
-        <div class="image-container">
-          <a
-            target="_blank"
-            rel="”noreferrer”"
-            href="https://fotoshare.netlify.app/"
-          >
-            <img
-              src="../assets/images/upload.png"
-              alt="KaidanFit image"
-              class="showcase"
-            />
-          </a>
-        </div>
-      </div> -->
     </div>
   </div>
 </template>
 <i18n>
 {
   "en": {
-    "myworks": "My Works",
-    "p-detail-denmou": "A fictional Japanese SaaS company website offering services like website making, digital marketing, social media managing etc... Made with Nuxt.js",
-    "p-detail-ongaku": "A simple music player web app with modern UI. Designed for simplicity and style.",
-    "p-detail-egaki": "Drawing app made with canvas. User can draw on the canvas, erase, change color and brush size, add picture and download the canvas.",
-    "p-detail-fotoshare": "Image sharing website. It saves the image and give the user an URL. Uses Firebase database."
-
+    "mydesigns": "My Designs",
+    "p-detail-ennka": "Spotify clone Enka music concept web app design. Aim was to design a Spotify clone with a unique taste.",
+    "p-detail-ohbento": "Obento shop app. Made to be simple and beautiful. Glas blur, clean design and filters are used.",
+    "p-detail-social": "Clones of popular apps and websites. Made for practice and fun. Inclued brands like Instagram, Netfix, WhatsApp..."
   },
+
   "ja": {
-    "myworks": "実績",
+    "myworks": "デザイン",
     "p-detail-denmou": "ウェブサイト作成、デジタルマーケティング、ソーシャルメディア管理などのサービスを提供する架空の日本のSaaS会社のウェブサイト。 Nuxt.jsで作成しました。",
-    "p-detail-ongaku": "最新のUIを備えたシンプルな音楽プレーヤーWebアプリです。 シンプルさとスタイルを追求して設計しました。",
-    "p-detail-egaki": "Canvasで作ったお絵かきアプリです。ユーザーはキャンバスに描画したり、色やブラシサイズの変更、画像の追加や消去、キャンバスのダウンロードなどをすることができます。",
-    "p-detail-fotoshare": " Firebaseデータベースを使用した画像共有サイトです。 画像を保存し、ユーザーにそのURLを提供します。"
+    "p-detail-ennka": "Spotify clone Enka music concept web app design.",
+    "p-detail-ohbento": "Obento shop app. That's it!",
+    "p-detail-social": "Clones of popular apps and websites. Made for practice and fun."
 
-},
+ },
     "tr": {
-    "myworks": "Çalışmalarım",
+    "myworks": "Tasarım Çalışmalarım",
     "p-detail-denmou": "Web sitesi yapımı, dijital pazarlama, sosyal medya yönetimi gibi hizmetler sunan kurgusal bir Japon SaaS şirketi web sitesi ... Nuxt.js ile yapılmıştır",
-    "p-detail-ongaku": "Modern kullanıcı arayüzüne sahip basit bir müzik çalar web uygulaması. Sadelik ve şıklık için tasarlandı.",
-    "p-detail-egaki": "Canvas ile yapılmış bir çizim uygulaması. Kullanıcı çizim yapabilir, silebilir, rengi değiştirebilir, fırça boyutunu ayarlayabilir, tuvali indirebilir ve resim ekleyebilir.",
-    "p-detail-fotoshare": "Bir resim paylaşım sitesi. Görüntüyü kaydeder ve kullanıcıya bir URL verir. Firebase veritabanını kullanır."
+    "p-detail-ennka": "Spotify clone Enka music concept web app design.",
+    "p-detail-ohbento": "Obento shop app. That's it!",
+    "p-detail-social": "Clones of popular apps and websites. Made for practice and fun."
 
-  }
+ }
 }
 </i18n>
 
 <script>
-import GithubSvg from "./Svg/GitHub.vue";
 import OutlinkSvg from "./Svg/OutLink.vue";
 
 export default {
   components: {
-    GithubSvg,
     OutlinkSvg,
   },
 };

@@ -22,7 +22,7 @@
         </div>
         <h3>KaidanFit</h3>
         <p>
-          {{ $t("p-detail") }}
+          {{ $t("p-detail-kaidanfit") }}
         </p>
         <div class="tags">
           <p>HTML</p>
@@ -52,7 +52,7 @@
         </div>
         <h3>Kalendar</h3>
         <p>
-          {{ $t("p-detail2") }}
+          {{ $t("p-detail2-calendar") }}
         </p>
         <div class="tags">
           <p>Vue.js&Vuetify</p>
@@ -81,7 +81,7 @@
         </div>
         <h3>Onur's Movies</h3>
         <p>
-          {{ $t("p-detail-onursmovies") }}
+          {{ $t("p-detail6-onurs-movies") }}
         </p>
         <div class="tags">
           <p>Express.js</p>
@@ -111,7 +111,7 @@
         </div>
         <h3>Portfolio V1</h3>
         <p>
-          {{ $t("p-detail4") }}
+          {{ $t("p-detail3-old-portfolio") }}
         </p>
         <div class="tags">
           <p>JavaScript</p>
@@ -140,7 +140,7 @@
         </div>
         <h3>Caspineon</h3>
         <p>
-          {{ $t("p-detail5") }}
+          {{ $t("p-detail4-caspineon") }}
         </p>
         <div class="tags">
           <p>HTML&SCSS</p>
@@ -168,7 +168,7 @@
         </div>
         <h3>Todo or Not Todo</h3>
         <p>
-          {{ $t("p-detail6") }}
+          {{ $t("p-detail5-todo") }}
         </p>
         <div class="tags">
           <p>Vue.js</p>
@@ -183,34 +183,31 @@
 {
   "en": {
     "title": "Other Works",
-    "p-detail": "A fitness and diet program website with an innovative mobile exclusive bottom menu. Made with traditional technologies.",
-    "p-detail2": "A full-stack calendar app with event adding functionality. User data is stored in Firebase.",
-    "p-detail3": "A drawing app. It has every basic function as a normal drawing app like paint.",
-    "p-detail4": "My old portfolio but you are welcome to have a look and maybe get inspired :)",
-    "p-detail5": "Cyberpunk and dystopian themed futuristic real estate website.",
-    "p-detail6": "A full-stack todo app with Firebase database. It has adding, deleting, updating and checking done functions.",
-    "p-detail-onursmovies": "A simple app for searching IMDB movies. Uses axios to get data from OMDb API with built-in Express server and EJS."
+    "p-detail-kaidanfit": "A fitness and diet program website with an innovative mobile exclusive bottom menu. Made with traditional technologies.",
+    "p-detail2-calendar": "A full-stack calendar app with event adding functionality. User data is stored in Firebase.",
+    "p-detail3-old-portfolio": "My old portfolio but you are welcome to have a look and maybe get inspired :)",
+    "p-detail4-caspineon": "Cyberpunk and dystopian themed futuristic real estate website.",
+    "p-detail5-todo": "A full-stack todo app with Firebase database. It has adding, deleting, updating and checking done functions.",
+    "p-detail6-onurs-movies": "A simple app for searching IMDB movies. Uses axios to get data from OMDb API with built-in Express server and EJS."
 
 },
   "ja": {
     "title": "その他の実績",
-    "p-detail": "革新的なモバイル専用ボトムメニューを備えたフィットネスおよびダイエットプログラムのウェブサイトです。",
-    "p-detail2": "イベント追加機能を備えたフルスタックカレンダーアプリです。 ユーザーデータはFirebaseに保存されます。",
-    "p-detail3": "描画アプリです。 ペイントのような通常の描画アプリとしての基本的な機能をすべて備えています。",
-    "p-detail4": "これは私の以前のポートフォリオです。あなたはきっとインスピレーションを受けるでしょう。",
-    "p-detail5": "サイバーパンクとディストピテーマの未来的な不動産ウェブサイトです。",
-    "p-detail6": "Firebaseデータベースを備えたフルスタックのtodoアプリです。 項目の追加、削除、編集と更新などの機能があります。",
-    "p-detail-onursmovies": "IMDBの映画を検索するためのシンプルなアプリ。 axiosを使用して、組み込みのExpressサーバーとEJを備えたOMDbAPIからデータを取得します。"
+    "p-detail-kaidanfit": "革新的なモバイル専用ボトムメニューを備えたフィットネスおよびダイエットプログラムのウェブサイトです。",
+    "p-detail2-calendar": "イベント追加機能を備えたフルスタックカレンダーアプリです。 ユーザーデータはFirebaseに保存されます。",
+    "p-detail3-old-portfolio": "これは私の以前のポートフォリオです。あなたはきっとインスピレーションを受けるでしょう。",
+    "p-detail4-caspineon": "サイバーパンクとディストピテーマの未来的な不動産ウェブサイトです。",
+    "p-detail5-todo": "Firebaseデータベースを備えたフルスタックのtodoアプリです。 項目の追加、削除、編集と更新などの機能があります。",
+    "p-detail6-onurs-movies": "IMDBの映画を検索するためのシンプルなアプリ。 axiosを使用して、組み込みのExpressサーバーとEJを備えたOMDbAPIからデータを取得します。"
   },
     "tr": {
     "title": "Diğer Çalışmalarım",
-    "p-detail": "Yenilikçi bir mobil özel alt menüye sahip bir fitness ve diyet programı web sitesi. ",
-    "p-detail2": "Yapılacaklar listesi özelliği olan full-stack bir takvim uygulaması. Kullanıcı verisi Firebase veritabanında saklanır.",
-    "p-detail3": "Bir çizim uygulaması. Paint gibi normal bir çizim uygulamasında var olan her temel işlevi barındırır.",
-    "p-detail4": "Eski portföyüm ama bir göz atabilir ve belki ilham alabilirsiniz :)",
-    "p-detail5": "Cyberpunk ve dystopian temalı fütiristik bir emlak sitesi.",
-    "p-detail6": "Firebase veritabanı kullanan 'full-stack' bir yapılacaklar listesi uygulaması. Ekleme, silme, güncelleme ve işaretleme özellikleri vardır.",
-    "p-detail-onursmovies": "IMDB filmlerini aramak için yapılmış basit bir uygulama. Kendi Express sunucucu ve EJS ile OMDb API'den veri almak için axios kullanın."
+    "p-detail-kaidanfit": "Yenilikçi bir mobil özel alt menüye sahip bir fitness ve diyet programı web sitesi. ",
+    "p-detail2-calendar": "Yapılacaklar listesi özelliği olan full-stack bir takvim uygulaması. Kullanıcı verisi Firebase veritabanında saklanır.",
+    "p-detail3-old-portfolio": "Eski portföyüm ama bir göz atabilir ve belki ilham alabilirsiniz :)",
+    "p-detail4-caspineon": "Cyberpunk ve dystopian temalı fütiristik bir emlak sitesi.",
+    "p-detail5-todo": "Firebase veritabanı kullanan 'full-stack' bir yapılacaklar listesi uygulaması. Ekleme, silme, güncelleme ve işaretleme özellikleri vardır.",
+    "p-detail6-onurs-movies": "IMDB filmlerini aramak için yapılmış basit bir uygulama. Kendi Express sunucucu ve EJS ile OMDb API'den veri almak için axios kullanın."
 }
 }
 </i18n>
@@ -235,7 +232,7 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 5vh 25vh;
+  padding: 0vh 25vh;
   h2 {
     margin-bottom: 5vh;
     color: $p-color;
@@ -259,7 +256,11 @@ export default {
       margin: 1vh;
       position: relative;
       &:hover {
+        transition: all 100ms;
         background: rgb(39, 39, 39);
+        img {
+          filter: grayscale(0);
+        }
       }
       img {
         position: absolute;

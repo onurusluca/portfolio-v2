@@ -5,7 +5,7 @@
       <hr />
     </h2>
     <a href="https://kodyolu.vercel.app/">
-      <img class="kodyolu" src="../assets/images/kodyolu.png" alt="" />
+      <img class="kodyolu-img" src="../assets/images/kodyolu.png" alt="" />
     </a>
     <p>
       <a id="kod" href="https://kodyolu.vercel.app/">Kodyolu.</a>
@@ -40,6 +40,7 @@ export default {};
   height: 22vh;
   padding: 30vh 0 5vh 0;
   margin: 35vh 0;
+  margin-bottom: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,14 +53,18 @@ export default {};
     width: 60vh;
   }
 
-  .kodyolu {
+  .kodyolu-img {
     width: 100vh;
     border-radius: 3vh;
     box-shadow: 0 12px 10px rgba(0, 0, 0, 0.5);
-    transition: all 500ms;
-    margin: 5vh;
+
+    margin-bottom: 5vh;
+
+    transition: all 200ms;
+    filter: grayscale(100%);
     &:hover {
       transform: scale(1.03);
+      filter: grayscale(0);
     }
   }
 
@@ -95,6 +100,11 @@ export default {};
     p {
       width: 90%;
     }
+  }
+
+  @media #{$m-laptop} {
+    margin: 20vh 0;
+    margin-bottom: 15rem;
   }
 }
 </style>
