@@ -3,6 +3,8 @@ export default {
 
   // Target (https://go.nuxtjs.dev/config-target)
 
+  target: "static", // default is 'server'
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: "Onur Usluca - Web Developer / Designer",
