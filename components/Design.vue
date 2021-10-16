@@ -13,7 +13,7 @@
             href="https://www.figma.com/file/EZLvdvFgHZ7O7mXPaeUJfD/Ennka-Japanese-Enka-Music-Platform-Concept-演歌音楽プラットフォーム-Spotify-Clone?node-id=4%3A385"
           >
             <img
-              src="../assets/images/ennka.png"
+              src="../assets/images/ennka.webp"
               alt="Denmou image"
               class="showcase"
             />
@@ -73,7 +73,7 @@
             href="https://www.figma.com/file/Ltj16yqUVXDgjXWlzeAhWC/OhBento-Japanese-Bentou-Shopping-Concept-App-お弁当ショッピングコンセプトアプリ?node-id=1%3A8"
           >
             <img
-              src="../assets/images/ohbento.png"
+              src="../assets/images/ohbento.webp"
               alt="KaidanFit image"
               class="showcase"
             />
@@ -89,7 +89,7 @@
             href="https://www.figma.com/file/4Oihnv3HYx5UEEOGAWGIbr/Social-Media-Clones-ソーシャルメディアのクローン?node-id=0%3A1"
           >
             <img
-              src="../assets/images/sosyal.png"
+              src="../assets/images/sosyal.webp"
               alt="KaidanFit image"
               class="showcase"
             />

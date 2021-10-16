@@ -5,7 +5,7 @@
       <hr />
     </h2>
     <a href="https://kodyolu.vercel.app/">
-      <img class="kodyolu-img" src="../assets/images/kodyolu.png" alt="" />
+      <img class="kodyolu-img" src="../assets/images/kodyolu.webp" alt="" />
     </a>
     <p>
       <a id="kod" href="https://kodyolu.vercel.app/">Kodyolu.</a>

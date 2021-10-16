@@ -13,6 +13,13 @@
             href="https://denmou-company.vercel.app/"
           >
             <img
+              v-if="supportsWebP == true"
+              src="../assets/images/denmou.webp"
+              alt="Denmou image"
+              class="showcase"
+            />
+            <img
+              v-if="supportsWebP == false"
               src="../assets/images/denmou.png"
               alt="Denmou image"
               class="showcase"
@@ -88,7 +95,7 @@
             href="https://ongakuplayer.netlify.app/"
           >
             <img
-              src="../assets/images/ongaku.png"
+              src="../assets/images/ongaku.webp"
               alt="KaidanFit image"
               class="showcase"
             />
@@ -104,7 +111,7 @@
             href="https://egaki.netlify.app/"
           >
             <img
-              src="../assets/images/egaki.png"
+              src="../assets/images/egaki.webp"
               alt="Denmou image"
               class="showcase"
             />
@@ -178,7 +185,7 @@
             href="https://fotoshare.netlify.app/"
           >
             <img
-              src="../assets/images/upload.png"
+              src="../assets/images/upload.webp"
               alt="KaidanFit image"
               class="showcase"
             />
@@ -221,11 +228,16 @@
 import GithubSvg from "./Svg/GitHub.vue";
 import OutlinkSvg from "./Svg/OutLink.vue";
 
+import checkWebPSupport from "../mixins/checkWebPSupport";
+
 export default {
+  mixins: [checkWebPSupport],
+
   components: {
     GithubSvg,
     OutlinkSvg,
   },
+  methods: {},
 };
 </script>
 

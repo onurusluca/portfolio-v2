@@ -24,7 +24,7 @@
       <div class="list">
         <ul>
           <li>HTML & CCS (SCSS)</li>
-          <li>JavaScript (ES+)</li>
+          <li>JavaScript & TypeScript</li>
           <li>Vue.js(Vuex) & Nuxt.js</li>
           <li>Node.js & Express.js</li>
           <li>Browser Extensions</li>
@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="right-about">
-      <img src="../assets/images/author-pic.png" alt="Author Picture" />
+      <img src="../assets/images/author-pic.webp" alt="Author Picture" />
     </div>
   </div>
 </template>
