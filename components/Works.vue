@@ -13,14 +13,7 @@
             href="https://denmou-company.vercel.app/"
           >
             <img
-              v-if="supportsWebP == true"
               src="../assets/images/denmou.webp"
-              alt="Denmou image"
-              class="showcase"
-            />
-            <img
-              v-if="supportsWebP == false"
-              src="../assets/images/denmou.png"
               alt="Denmou image"
               class="showcase"
             />
@@ -228,11 +221,7 @@
 import GithubSvg from "./Svg/GitHub.vue";
 import OutlinkSvg from "./Svg/OutLink.vue";
 
-import checkWebPSupport from "../mixins/checkWebPSupport";
-
 export default {
-  mixins: [checkWebPSupport],
-
   components: {
     GithubSvg,
     OutlinkSvg,
