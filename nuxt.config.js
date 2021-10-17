@@ -3,7 +3,7 @@ export default {
 
   // Target (https://go.nuxtjs.dev/config-target)
 
- // target: "static", // default is 'server'
+  // target: "static", // default is 'server'
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -57,7 +57,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: ["@nuxtjs/style-resources", "nuxt-compress"],
+  buildModules: ["@nuxtjs/style-resources"],
   styleResources: {
     scss: ["./assets/styles/variables.scss"]
   },
