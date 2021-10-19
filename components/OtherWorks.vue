@@ -226,13 +226,13 @@ export default {
 
 <style lang="scss" scoped>
 #other-works {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0vh 25vh;
+  margin: auto;
   h2 {
     margin-bottom: 5vh;
     color: $p-color;

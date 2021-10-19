@@ -150,7 +150,7 @@ export default {};
 
     img {
       z-index: 2;
-      width: 38vh;
+      max-width: 38vh;
       height: 38vh;
       object-fit: cover;
       border-radius: 0.5vh;

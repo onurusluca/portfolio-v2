@@ -258,7 +258,7 @@ export default {
 
         img {
           position: relative;
-          width: 45vw;
+          max-width: 45vw;
           border-radius: 0.8vh;
           box-shadow: 0 12px 10px rgba(0, 0, 0, 0.5);
           transition: all 200ms;

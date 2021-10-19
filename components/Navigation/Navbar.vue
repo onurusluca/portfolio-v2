@@ -36,7 +36,7 @@
               target="_blank"
               rel="”noreferrer”"
               class="resume"
-              href="https://drive.google.com/file/d/1qZ8b4Y0TAsaTYAopKmZWh71GFJ_ZuOcS/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QF_KR6sZg8IrKQzxEZqKO8edCbZqd7i3/view?usp=sharing"
               download="Usluca_Onur_Web_Developer_Resume"
             >
               {{ $t("resume") }}
@@ -46,7 +46,7 @@
               target="_blank"
               rel="”noreferrer”"
               class="resume"
-              href="https://drive.google.com/file/d/1qZ8b4Y0TAsaTYAopKmZWh71GFJ_ZuOcS/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QF_KR6sZg8IrKQzxEZqKO8edCbZqd7i3/view?usp=sharing"
               download="Usluca_Onur_Web_Developer_Resume"
             >
               {{ $t("resume") }}
@@ -56,7 +56,7 @@
               target="_blank"
               rel="”noreferrer”"
               class="resume"
-              href="https://drive.google.com/file/d/1rzJ99MpnL4gFB_wxvy3V7Hcbrl7FnA75/view?usp=sharing"
+              href="https://drive.google.com/file/d/1puMnhrCphH-voTDQG9b5zh2E3mSCKVxk/view?usp=sharing"
               download="Usluca_Onur_日本語履歴書"
             >
               {{ $t("resume") }}

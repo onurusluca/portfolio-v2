@@ -126,24 +126,22 @@
   "en": {
     "mydesigns": "My Designs",
     "p-detail-ennka": "Spotify clone Enka music concept web app design. Aim was to design a Spotify clone with a unique taste.",
-    "p-detail-ohbento": "Obento shop app. Made to be simple and beautiful. Glas blur, clean design and filters are used.",
-    "p-detail-social": "Clones of popular apps and websites. Made for practice and fun. Inclued brands like Instagram, Netfix, WhatsApp..."
+    "p-detail-ohbento": "Obento shop app. Made to be simple and beautiful. Glass blur, clean design and filters are used.",
+    "p-detail-social": "Clones of popular apps and websites. Made for practice and fun. Includes brands like Instagram, Netflix, WhatsApp..."
   },
 
   "ja": {
     "myworks": "デザイン",
-    "p-detail-denmou": "ウェブサイト作成、デジタルマーケティング、ソーシャルメディア管理などのサービスを提供する架空の日本のSaaS会社のウェブサイト。 Nuxt.jsで作成しました。",
-    "p-detail-ennka": "Spotify clone Enka music concept web app design.",
-    "p-detail-ohbento": "Obento shop app. That's it!",
-    "p-detail-social": "Clones of popular apps and websites. Made for practice and fun."
+    "p-detail-ennka": "Spotifyクローン演歌音楽コンセプトウェブアプリのデザイン。目的は、独特のセンスでSpotifyクローンをデザインすることでした",
+    "p-detail-ohbento": "お弁当ショップアプリ。シンプルで美しい、すっきりとしたデザイン。デザインの設計原則を大事にするデザイン",
+    "p-detail-social": "人気のアプリやウェブサイトのクローン。練習と楽しみのために作くりました。Instagram、Netflix、WhatsAppなどのブランドが含まれています"
 
  },
     "tr": {
     "myworks": "Tasarım Çalışmalarım",
-    "p-detail-denmou": "Web sitesi yapımı, dijital pazarlama, sosyal medya yönetimi gibi hizmetler sunan kurgusal bir Japon SaaS şirketi web sitesi ... Nuxt.js ile yapılmıştır",
-    "p-detail-ennka": "Spotify clone Enka music concept web app design.",
-    "p-detail-ohbento": "Obento shop app. That's it!",
-    "p-detail-social": "Clones of popular apps and websites. Made for practice and fun."
+    "p-detail-ennka": "Spotify klonu Enka müzik konsepti web uygulaması tasarımı. Amaç, benzersiz bir tada sahip bir Spotify klonu tasarlamaktı.",
+    "p-detail-ohbento": "Obento shop uygulaması. Basit ve göz alıcı olması için yapıldı. Cam bulanıklığı, temiz tasarım ve filtreler kullanıldı.",
+    "p-detail-social": "Popüler uygulamaların ve web sitelerinin klonları. Alıştırma ve eğlence için yapılmıştır. Instagram, Netflix, WhatsApp gibi markaları içerir."
 
  }
 }
@@ -187,7 +185,7 @@ export default {
 
         img {
           position: relative;
-          width: 60vw;
+          max-width: 50vw;
           border-radius: 0.8vh;
           box-shadow: 0 12px 10px rgba(0, 0, 0, 0.5);
           transition: all 200ms;

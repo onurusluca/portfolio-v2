@@ -1,8 +1,8 @@
 <template>
   <div id="contact" data-aos="fade-in" data-aos-delay="300">
     <h2>{{ $t("git") }}</h2>
-    <p class="job">{{ $t("msg") }}</p>
-
+    <p class="looking">{{ $t("msg") }}</p>
+    <p class="job">{{ $t("in-japan") }}</p>
     <!--     <p class="job">{{ $t("not") }}</p>
  -->
     <p>{{ $t("msg2") }}</p>
@@ -14,22 +14,25 @@
 {
   "en": {
     "git": "Get In Touch",
-    "msg": "I am currently looking for a job! Preferably in Japan.",
     "not": "I am not looking for a job but I am open to offers and ideas!",
+    "msg": "I am currently looking for a job!",
+    "in-japan":"Preferably in Japan.",
     "msg2": "Got a job offer or an idea? Or you just wanna talk? I can help! Feel free to contact me!",
     "btn": "Send Me An Email"
   },
   "ja": {
      "git": "お問い合わせ",
     "not": "私は仕事を探していませんが、オファーやアイデアを受け入れています！",
-    "msg": "現在仕事を探しています！日本で仕事をすることを望んでいます。",
+    "msg": "現在仕事を探しています！",
+    "in-japan":"日本で仕事をすることを望んでいます。",
     "msg2": "仕事に関することやその他お問い合わせをお待ちしております。 お話しましょう！",
     "btn": "メールを送る"
   },
   "tr": {
      "git": "Bana Ulaşın",
     "not": "İş aramıyorum ama tekliflere ve fikirlere açığım!",
-    "msg": "Şu anda bir iş arıyorum! Tercihen Japonya'da.",
+    "msg": "Şu anda bir iş arıyorum! ",
+    "in-japan":"Tercihen Japonya'da.",
     "msg2": "Bir İş teklifi veya fikriniz mi var? Yada konuşmak mı istiyorsunuz? Yardımcı olabilirim!",
     "btn": "Bana yazın!"
   }
@@ -56,6 +59,11 @@ export default {};
   p {
     font-size: 3vh;
     width: 75vh;
+  }
+
+  .looking {
+    font-weight: bold;
+    text-decoration: underline;
   }
   .job {
     border-bottom: 1px solid $p-color;
