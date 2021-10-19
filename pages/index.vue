@@ -3,10 +3,11 @@
     <Hero />
     <AboutMe />
     <!--     <Experience />
- -->
+
     <LazyHydrate when-visible>
       <NowWorking />
     </LazyHydrate>
+     -->
     <LazyHydrate when-visible>
       <Works />
     </LazyHydrate>
