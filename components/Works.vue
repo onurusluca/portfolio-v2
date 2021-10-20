@@ -398,7 +398,7 @@ export default {
         .image-container {
           width: max-content;
           img {
-            width: 75vw;
+            max-width: 90vw;
             filter: grayscale(0);
           }
         }

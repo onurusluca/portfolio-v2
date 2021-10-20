@@ -305,15 +305,10 @@ export default {
     }
   }
 
-  @media #{$xs-mobile, $s-tablets, $sm-tablets, $m-laptop} {
-    padding: 5vh;
-    margin: 0;
-
+  @media #{$xs-mobile, $s-tablets, $sm-tablets} {
     .o-work {
-      padding: 0;
-      margin: 0;
       .work {
-        max-width: 95%;
+        width: 95%;
       }
     }
   }

@@ -97,14 +97,6 @@ export default {
         cookieSecure: false
       }
     ],
-    vuex: [
-      {
-        moduleName: "i18n",
-        syncLocale: true,
-        syncMessages: false,
-        syncRouteParams: true
-      }
-    ],
     vueI18n: {
       fallbackLocale: "en"
     }
