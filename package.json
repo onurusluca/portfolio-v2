@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt generate",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "analyze": "nuxt build --analyze"
   },
   "dependencies": {
     "@nuxtjs/robots": "^2.4.2",
@@ -15,8 +16,7 @@
     "nuxt": "^2.14.7",
     "nuxt-i18n": "^6.15.4",
     "nuxt-webfontloader": "^1.1.0",
-    "vue-click-outside": "^1.1.0",
-    "vue-lazy-hydration": "^2.0.0-beta.4"
+    "vue-click-outside": "^1.1.0"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
