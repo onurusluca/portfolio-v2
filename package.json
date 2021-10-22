@@ -6,8 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt generate",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "analyze": "nuxt build --analyze"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/robots": "^2.4.2",
